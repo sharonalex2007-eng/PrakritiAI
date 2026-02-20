@@ -1,4 +1,4 @@
-import { remediesDB } from "../../dashboard/remediesDB"; // adjust the path if needed
+import { remediesDB } from "../../dashboard/remediesDB";
 
 export async function POST(req: Request) {
   const { symptoms } = await req.json();

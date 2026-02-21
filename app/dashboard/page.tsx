@@ -1,3 +1,4 @@
+// Redeploy safe: removing old API references
 "use client";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
